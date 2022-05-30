@@ -52,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
         accion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 Bundle datos = new Bundle();
                 datos.putString("KeyDatos",editar.getText().toString());
 
